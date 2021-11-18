@@ -1,3 +1,6 @@
+/* ========================================
+        Login Area Style 
+========================================= */
 #loginArea {
     display: flex;
     align-items: center;
@@ -6,13 +9,11 @@
     height: 100vh;
     background-color: #9D9D9D;
 }
-
 #loginArea h1 {
     color: #112031;
     font-weight: 700;
     font-size: 40px;
 }
-
 .submit-area {
     background-color: #1F1D36;
     ;
@@ -23,17 +24,14 @@
     margin-left: 20px;
     margin-right: 20px;
 }
-
 .submit-area h2 {
     color: #fff;
     font-weight: 700;
     margin-bottom: 16px;
 }
-
 .form-control {
     margin-bottom: 25px;
 }
-
 #loginArea input:focus,
 #loginArea button:focus,
 #transactionArea input:focus,
@@ -41,13 +39,14 @@
     outline: none;
     box-shadow: none;
 }
-
+/* ========================================
+        Transaction Area Style 
+========================================= */
 #transactionArea {
     padding: 100px 0;
     background-color: #636e72;
     display: none;
 }
-
 .status {
     margin: 10px;
     padding: 26px;
@@ -55,15 +54,12 @@
     border-radius: 10px;
     color: #fff;
 }
-
 .deposit {
     background-color: #27ae60;
 }
-
 .withdraw {
     background-color: #e74c3c;
 }
-
 .balance {
     background-color: #f39c12;
 }
